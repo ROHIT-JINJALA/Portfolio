@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Section from "./section";
+import section from "./Section";
 import Rohit from "../assets/Rohit.png";
 import RohitResume from "../assets/Rohit_Jinjala_Resume.pdf";
 import { MdOutlineFileDownload } from "react-icons/md";
