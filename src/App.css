@@ -1,0 +1,23 @@
+/* 1. Hide default scrollbar but keep scrolling functionality */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+/* 2. Smooth scrolling behavior */
+
+
+/* 3. Scroll snapping for a modern feel */
+body {
+  scroll-snap-type: y mandatory;
+}
+
+/* 4. Section styling */
+section {
+  min-height: 90vh; 
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
