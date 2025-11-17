@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
-import skillData from "../data/skillData";
+import skillData from "../data/SkillData";
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("All Skills");
